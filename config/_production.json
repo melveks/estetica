@@ -1,0 +1,31 @@
+{
+  "cron": {"jobs": []},
+  "settings": {"public": {}},
+  "smtp": {},
+  "name": "comercios",
+  "setup": {
+    "schema": {
+      "execution": true,
+      "auto_create": true
+    },
+    "scripts": {"execution": true},
+    "enabled": true
+  },
+  "language": "pt_PT",
+  "firebase": {
+    "app_name": "",
+    "database_url": "",
+    "key_file": "",
+    "listener_secret": ""
+  },
+  "locale": "pt_PT",
+  "remote": {},
+  "db": {"default": {
+    "password": "",
+    "engine": "h2",
+    "port": "",
+    "host": "",
+    "name": "comercios",
+    "username": ""
+  }}
+}
