@@ -1,0 +1,15 @@
+{
+    "info": {
+      "title": "Comercios",
+      "description": "REST API dos Comércios utilize com Moderação.",
+      "version": "1.0"
+    },
+    "components": {
+      "securitySchemes": {
+        "BearerAuth": {
+          "type": "http",
+          "scheme": "bearer"
+        }
+      }
+    }
+  }

@@ -1,0 +1,25 @@
+{
+    "summary": "cria estabelecimentos",
+    "description": "Permite criar estabelecimentos.",
+    "type": "object",
+    "properties": {
+      "category": {
+        "type": "string-not-empty"
+      },
+      "name": {
+        "type": "string-not-empty"
+      },
+      "telephone": {
+        "type": "string-not-empty"
+      },
+      "email": {
+        "type": "string-not-empty"
+      }
+    },
+    "required": [
+      "category",
+      "name",
+      "telephone",
+      "email"
+    ]
+}
